@@ -1,11 +1,14 @@
 import { FaRegHeart } from "react-icons/fa";
 
 
-export default function Button() {
-    <div>
-        <button className="px-6 py-2 bg-white hover:bg-gray-300 text-black font-bold rounded-2xl flex gap-1"><FaRegHeart className='mt-1'/>
-            Support
-        </button>
+import React from 'react';
 
-    </div>
-}
+const Button = () => {
+    return (
+        <button className="px-12 py-2 bg-white text-black rounded-lg flex gap-2 font-bold text-xl max-lg:px-">
+           <FaRegHeart className="mt-1" />Support
+        </button>
+    );
+};
+
+export default Button;
