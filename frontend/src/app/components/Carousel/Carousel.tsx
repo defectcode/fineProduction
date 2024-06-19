@@ -29,7 +29,7 @@ const Carousel = () => {
   };
 
   return (
-    <div className="flex justify-center h-screen bg-black">
+    <div className="flex justify-center h-full bg-black">
       <div className="flex items-center justify-center w-full">
         <button
           className="absolute left-0 p-2 bg-gray-800 text-white rounded-full m-10 z-10"
@@ -44,7 +44,7 @@ const Carousel = () => {
           >
             {images.map((image, index) => (
               <div key={index} className="max-w-full h-screen flex-shrink-0 relative m-4 flex items-center">
-                <Image src={image} alt={`Slide ${index}`} width={1400} height={1} objectFit="cover" />
+                <Image src={image} alt={`Slide ${index}`} width={1400} height={900} objectFit="cover" />
               </div>
             ))}
           </div>
