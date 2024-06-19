@@ -6,7 +6,7 @@ import Icons from './components/Icons';
 
 export default function Header() {
     return (
-        <div className="bg-cover bg-center bg-no-repeat h-screen text-white" style={{ backgroundImage: `url('/imgs/background.png')` }}>
+        <div className="bg-cover bg-center bg-no-repeat h-screen text-white" style={{ backgroundImage: `url('/imgs/background.svg')` }}>
             <Navbar />
             <div className="max-w-screen-2xl mx-auto h-full flex flex-col text-white max-2xl:p-4">
                 <div className='flex-grow flex flex-col justify-end max-2xl:p-2'>

@@ -28,6 +28,7 @@ export default function Navbar() {
                     <li className="mt-4 md:mt-0 md:ml-0 ml-4"><Link legacyBehavior href="/about"><a onClick={closeMenu} className="hover:text-gray-300">About</a></Link></li>
                     <li className="mt-4 md:mt-0 md:ml-0 ml-4"><Link legacyBehavior href="/crowdfunding"><a onClick={closeMenu} className="hover:text-gray-300">Crowdfunding</a></Link></li>
                     <li className="mt-4 md:mt-0 md:ml-0 ml-4"><Link legacyBehavior href="/contact"><a onClick={closeMenu} className="hover:text-gray-300">Contact Us</a></Link></li>
+                    <li className="mt-4 md:mt-0 md:ml-0 ml-4"><Link legacyBehavior href="/contact"><a onClick={closeMenu} className="hover:text-gray-300">Contact Us</a></Link></li>
                 </ul>
                 <div className='hidden md:flex gap-5'>
                     <Link href="/"><AiOutlineUser className='flex w-8' /></Link>
