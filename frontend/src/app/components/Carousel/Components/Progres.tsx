@@ -2,24 +2,22 @@ import React from 'react';
 import Button from './Button';
 
 const FundraisingProgress = ({ raisedAmount, goalAmount }) => {
-    // Calculează progresul în procente
     const progressPercent = (raisedAmount / goalAmount) * 100;
 
-    // Calculează poziția din stânga a cercului alb în funcție de progres
     const circleLeftPosition = `${progressPercent}%`;
 
     return (
-        <div className="flex flex-col space-y-3 w-5/6">
-            <h1 className="text-[#E50815] text-4xl font-bold">Series Concept</h1>
+        <div className="flex flex-col space-y-3 w-5/6 max-lg:p-0 max-lg:space-y-2 ">
+            <h1 className="text-[#E50815] text-4xl font-bold max-lg:text-3xl">Series Concept</h1>
             <div className="flex justify-between text-xl">
-                <p className="text-2xl">Current Fundraising</p>
-                <div className="flex gap-2">
-                    <p className="text-gray-400">Stage</p>
+                <p className="text-2xl max-lg:text-xl max-md:text-md">Current Fundraising</p>
+                <div className="flex gap-2 max-sm:text-md">
+                    <p className="text-white">Stage</p>
                     <p>1</p>
                 </div>
             </div>
             <div className="relative">
-                <div className="h-1.5 bg-[#6F6F6F] rounded-full">
+                <div className="h-1.5 bg-gray-600 rounded-full">
                     <div className="h-full rounded-full bg-gradient-to-r from-[#E50815] via-[#E50815] to-white" style={{ width: `${progressPercent}%` }}></div>
                 </div>
                 <div className="absolute top-0 -translate-y-1/2 transform" style={{ left: circleLeftPosition }}>
