@@ -1,14 +1,14 @@
 
 import React from 'react';
-import { FaArrowRight } from "react-icons/fa";
+import { MdKeyboardArrowRight } from "react-icons/md";
 
 const NextButton = ({ onClick }) => {
     return (
         <button
-            className="absolute right-0 p-2 bg-gray-800 text-white rounded-full m-10 z-10"
+            className="absolute right-0 p-2 bg-gray-800 text-white rounded-full m-5 z-10 bg-transparent"
             onClick={onClick}
         >
-            <FaArrowRight />
+            <MdKeyboardArrowRight className='w-20 h-auto max-lg:w-10'/>
 
         </button>
     );

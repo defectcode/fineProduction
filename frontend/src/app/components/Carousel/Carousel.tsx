@@ -33,11 +33,6 @@ const Carousel = () => {
   const raisedAmount = 15000;
   const goalAmount = 74000;
 
-  // useEffect(() => {
-  //   const autoSlide = setInterval(nextSlide, 7000);
-  //   return () => clearInterval(autoSlide);
-  // }, []);
-
   return (
     <div className="relative flex justify-center h-full bg-black">
       <div className="flex items-center justify-center w-full relative overflow-hidden m-7 max-lg:m-4">

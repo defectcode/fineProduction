@@ -4,11 +4,11 @@ import Link from "next/link";
 
 const Footer = () => {
     return (
-        <div className="h-[561px] bg-black max-lg:h-auto">
+        <div className="h-[561px] bg-black max-lg:h-auto ">
             <div className="max-w-screen-2xl mx-auto h-full flex text-white max-2xl:p-4 items-center gap-10 justify-around max-lg:items-center max-lg:flex-col max-lg:text-center">
                 <div className="text-[#A1A1A1] w-1/3 space-y-8 max-lg:w-2/3">
                     <Image src='/imgs/logo.svg' alt="logo" width={120} height={1} className="max-lg:flex max-"/>
-                    <p>Come & See is a 501(c)(3) and all donations are tax deductible.  (May vary by country.) Tax ID: 88-3013171. For mailing: 6385 Corporate Drive, Suite 200 Colorado Springs, CO 80919 Organization Registration (NO MAILING): 2601 Oberlin Rd STE 100 Raleigh, NC 27608</p>
+                    <p>Come & See is a 501(c)(3) and all donations are tax deductible. (May vary by country.) Tax ID: 88-3013171. For mailing: 6385 Corporate Drive, Suite 200 Colorado Springs, CO 80919 Organization Registration (NO MAILING): 2601 Oberlin Rd STE 100 Raleigh, NC 27608</p>
                 </div>
                 <div className="flex flex-col gap-5">
                     <h1 className="text-xl">Support And Donations</h1>
